@@ -8,10 +8,10 @@ function App() {
   const toggleMode=()=>{
     if(mode==='light'){
       setMode  ('dark');
-      document.body.style.backgroundColor='#042743';
+      document.body.style.backgroundColor='black';
     }else{
       setMode('light');
-      document.body.style.backgroundColor='white';
+      document.body.style.backgroundColor='grey';
     }
   }
   return (
